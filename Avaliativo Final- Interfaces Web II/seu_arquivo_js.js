@@ -29,7 +29,7 @@ function calculateAge() {
     let meuNome = prompt('Por favor, digite seu nome.');
     if (meuNome) {
         localStorage.setItem('nome', meuNome);
-        meuCabecalho.textContent = 'Vamos verificar sua idade, ' + meuNome;
+        meuCabecalho.textContent = 'Vamos verificar sua idade, ' + meuNome + ' ...';
     } else {
         meuCabecalho.textContent = ' ';
     }

@@ -165,11 +165,11 @@ input {
 /* Estilos para o GIF container */
 #gifContainer {
     position: absolute;
-    bottom: 10px;
-    left: 50%;
+    bottom: 5px;
+    left: 12%;
     transform: translateX(-50%);
-    width: 300px;
-    height: 300px;
+    width: 250px;
+    height: 250px;
     overflow: hidden;
 }
 
@@ -189,11 +189,11 @@ input {
 
     #gifContainer {
         position: absolute;
-        bottom: 10px;
-        left: 50%;
+        bottom: 1vh;
+        left: 10%;
         transform: translateX(-50%);
-        width: 300px;
-        height: 300px;
+        width: 200px;
+        height: 200px;
         overflow: hidden;
     }
 
